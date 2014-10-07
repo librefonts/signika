@@ -1,0 +1,7 @@
+commit: HEAD
+process_files: [Signika-Light.ttf.ttx, Signika-Bold.ttf.ttx, Signika-Regular.ttf.ttx,
+  Signika-Semibold.ttf.ttx, src/Signika-Semibold.otf.ttx, src/Signika-Regular.otf.ttx,
+  src/Signika-Light.otf.ttx, src/Signika-Bold.otf.ttx]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"

@@ -1,0 +1,681 @@
+# Bake Begins!
+### (1 of 6) Copy sources
+$ cp -a /home/travis/build/fontdirectory/signika/METADATA.json /home/travis/build/fontdirectory/signika/builds/build
+$ cp -a /home/travis/build/fontdirectory/signika/DESCRIPTION.en_us.html /home/travis/build/fontdirectory/signika/builds/build
+$ cp -a /home/travis/build/fontdirectory/signika/FONTLOG.txt /home/travis/build/fontdirectory/signika/builds/build
+$ cp -a Signika-Light.ttf.ttx Signika-Bold.ttf.ttx Signika-Regular.ttf.ttx Signika-Semibold.ttf.ttx src/Signika-Semibold.otf.ttx src/Signika-Regular.otf.ttx src/Signika-Light.otf.ttx src/Signika-Bold.otf.ttx Signika-Light.ttf._g_l_y_f.ttx Signika-Light.ttf._p_r_e_p.ttx Signika-Light.ttf._n_a_m_e.ttx Signika-Light.ttf.V_D_M_X_.ttx Signika-Light.ttf._p_o_s_t.ttx Signika-Light.ttf.O_S_2f_2.ttx Signika-Light.ttf.L_T_S_H_.ttx Signika-Light.ttf._c_m_a_p.ttx Signika-Light.ttf._k_e_r_n.ttx Signika-Light.ttf._m_a_x_p.ttx Signika-Light.ttf._g_a_s_p.ttx Signika-Light.ttf._h_e_a_d.ttx Signika-Light.ttf._l_o_c_a.ttx Signika-Light.ttf._h_d_m_x.ttx Signika-Light.ttf._h_m_t_x.ttx Signika-Light.ttf._f_p_g_m.ttx Signika-Light.ttf._h_h_e_a.ttx Signika-Light.ttf._c_v_t.ttx Signika-Light.ttf.GlyphOrder.ttx Signika-Bold.ttf._f_p_g_m.ttx Signika-Bold.ttf._g_l_y_f.ttx Signika-Bold.ttf.V_D_M_X_.ttx Signika-Bold.ttf._c_m_a_p.ttx Signika-Bold.ttf._m_a_x_p.ttx Signika-Bold.ttf._h_h_e_a.ttx Signika-Bold.ttf._h_e_a_d.ttx Signika-Bold.ttf._p_r_e_p.ttx Signika-Bold.ttf._h_d_m_x.ttx Signika-Bold.ttf.L_T_S_H_.ttx Signika-Bold.ttf.O_S_2f_2.ttx Signika-Bold.ttf._l_o_c_a.ttx Signika-Bold.ttf._p_o_s_t.ttx Signika-Bold.ttf._n_a_m_e.ttx Signika-Bold.ttf.GlyphOrder.ttx Signika-Bold.ttf._h_m_t_x.ttx Signika-Bold.ttf._g_a_s_p.ttx Signika-Bold.ttf._c_v_t.ttx Signika-Bold.ttf._k_e_r_n.ttx Signika-Regular.ttf.V_D_M_X_.ttx Signika-Regular.ttf._p_o_s_t.ttx Signika-Regular.ttf._g_l_y_f.ttx Signika-Regular.ttf._n_a_m_e.ttx Signika-Regular.ttf.GlyphOrder.ttx Signika-Regular.ttf._h_m_t_x.ttx Signika-Regular.ttf._m_a_x_p.ttx Signika-Regular.ttf._p_r_e_p.ttx Signika-Regular.ttf._k_e_r_n.ttx Signika-Regular.ttf._h_h_e_a.ttx Signika-Regular.ttf._l_o_c_a.ttx Signika-Regular.ttf._c_v_t.ttx Signika-Regular.ttf._h_d_m_x.ttx Signika-Regular.ttf._g_a_s_p.ttx Signika-Regular.ttf._c_m_a_p.ttx Signika-Regular.ttf.L_T_S_H_.ttx Signika-Regular.ttf._h_e_a_d.ttx Signika-Regular.ttf.O_S_2f_2.ttx Signika-Regular.ttf._f_p_g_m.ttx Signika-Semibold.ttf.V_D_M_X_.ttx Signika-Semibold.ttf.L_T_S_H_.ttx Signika-Semibold.ttf.O_S_2f_2.ttx Signika-Semibold.ttf._c_v_t.ttx Signika-Semibold.ttf.GlyphOrder.ttx Signika-Semibold.ttf._l_o_c_a.ttx Signika-Semibold.ttf._h_h_e_a.ttx Signika-Semibold.ttf._n_a_m_e.ttx Signika-Semibold.ttf._h_m_t_x.ttx Signika-Semibold.ttf._h_d_m_x.ttx Signika-Semibold.ttf._p_o_s_t.ttx Signika-Semibold.ttf._m_a_x_p.ttx Signika-Semibold.ttf._c_m_a_p.ttx Signika-Semibold.ttf._p_r_e_p.ttx Signika-Semibold.ttf._k_e_r_n.ttx Signika-Semibold.ttf._f_p_g_m.ttx Signika-Semibold.ttf._h_e_a_d.ttx Signika-Semibold.ttf._g_l_y_f.ttx Signika-Semibold.ttf._g_a_s_p.ttx src/Signika-Semibold.otf.C_F_F_.ttx src/Signika-Semibold.otf._h_e_a_d.ttx src/Signika-Semibold.otf._c_m_a_p.ttx src/Signika-Semibold.otf._p_o_s_t.ttx src/Signika-Semibold.otf.GlyphOrder.ttx src/Signika-Semibold.otf.G_P_O_S_.ttx src/Signika-Semibold.otf.O_S_2f_2.ttx src/Signika-Semibold.otf.G_S_U_B_.ttx src/Signika-Semibold.otf._h_m_t_x.ttx src/Signika-Semibold.otf._h_h_e_a.ttx src/Signika-Semibold.otf._n_a_m_e.ttx src/Signika-Semibold.otf._m_a_x_p.ttx src/Signika-Regular.otf._h_h_e_a.ttx src/Signika-Regular.otf._m_a_x_p.ttx src/Signika-Regular.otf.G_S_U_B_.ttx src/Signika-Regular.otf._n_a_m_e.ttx src/Signika-Regular.otf.C_F_F_.ttx src/Signika-Regular.otf._h_m_t_x.ttx src/Signika-Regular.otf.GlyphOrder.ttx src/Signika-Regular.otf._c_m_a_p.ttx src/Signika-Regular.otf.O_S_2f_2.ttx src/Signika-Regular.otf._p_o_s_t.ttx src/Signika-Regular.otf.G_P_O_S_.ttx src/Signika-Regular.otf._h_e_a_d.ttx src/Signika-Light.otf.G_P_O_S_.ttx src/Signika-Light.otf._c_m_a_p.ttx src/Signika-Light.otf.C_F_F_.ttx src/Signika-Light.otf._m_a_x_p.ttx src/Signika-Light.otf._h_h_e_a.ttx src/Signika-Light.otf.O_S_2f_2.ttx src/Signika-Light.otf._h_m_t_x.ttx src/Signika-Light.otf.GlyphOrder.ttx src/Signika-Light.otf._p_o_s_t.ttx src/Signika-Light.otf._h_e_a_d.ttx src/Signika-Light.otf.G_S_U_B_.ttx src/Signika-Light.otf._n_a_m_e.ttx src/Signika-Bold.otf.G_S_U_B_.ttx src/Signika-Bold.otf._p_o_s_t.ttx src/Signika-Bold.otf._m_a_x_p.ttx src/Signika-Bold.otf._n_a_m_e.ttx src/Signika-Bold.otf._h_h_e_a.ttx src/Signika-Bold.otf.O_S_2f_2.ttx src/Signika-Bold.otf._h_m_t_x.ttx src/Signika-Bold.otf.C_F_F_.ttx src/Signika-Bold.otf._c_m_a_p.ttx src/Signika-Bold.otf.G_P_O_S_.ttx src/Signika-Bold.otf._h_e_a_d.ttx src/Signika-Bold.otf.GlyphOrder.ttx /home/travis/build/fontdirectory/signika/builds/build/sources
+### (2 of 6) pyfontaine
+### (3 of 6) Run upstream tests
+$ fontbakery-check.py upstream-repo sources
+$ fontaine --collections subsets --text /home/travis/build/fontdirectory/signika/builds/build/sources/Signika-Semibold.otf.ttx /home/travis/build/fontdirectory/signika/builds/build/sources/Signika-Regular.otf.ttx /home/travis/build/fontdirectory/signika/builds/build/sources/Signika-Light.ttf.ttx /home/travis/build/fontdirectory/signika/builds/build/sources/Signika-Light.otf.ttx /home/travis/build/fontdirectory/signika/builds/build/sources/Signika-Bold.ttf.ttx /home/travis/build/fontdirectory/signika/builds/build/sources/Signika-Regular.ttf.ttx /home/travis/build/fontdirectory/signika/builds/build/sources/Signika-Semibold.ttf.ttx /home/travis/build/fontdirectory/signika/builds/build/sources/Signika-Bold.otf.ttx > fontaine.txt
+WARNING: Please install [PyICU](https://pypi.python.org/pypi/PyICU) toenable [feature], perhaps with: pip install pyicu
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_contours(): OK
+end of pyfontaine process
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_points(): OK
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_test_prepolation_glyph_names(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_bakery_yaml_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_copyright_notices_same_across_family(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_description_html_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_fontlog_txt_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_metadata_json_exists(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_component(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_mark_to_mark(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_own_glyphs(): OK
+$ fontbakery-check.py upstream-ttx Signika-Semibold.otf.ttx
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/signika/builds/build/sources/Signika-Semibold.otf.ttx /home/travis/build/fontdirectory/signika/builds/build/sources/Signika-Semibold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+$ fontbakery-check.py upstream-ttx Signika-Regular.otf.ttx
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/signika/builds/build/sources/Signika-Regular.otf.ttx /home/travis/build/fontdirectory/signika/builds/build/sources/Signika-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+$ fontbakery-check.py upstream-ttx Signika-Light.ttf.ttx
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/signika/builds/build/sources/Signika-Light.ttf.ttx /home/travis/build/fontdirectory/signika/builds/build/sources/Signika-Light.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+$ fontbakery-check.py upstream-ttx Signika-Light.otf.ttx
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/signika/builds/build/sources/Signika-Light.otf.ttx /home/travis/build/fontdirectory/signika/builds/build/sources/Signika-Light.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+$ fontbakery-check.py upstream-ttx Signika-Bold.ttf.ttx
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/signika/builds/build/sources/Signika-Bold.ttf.ttx /home/travis/build/fontdirectory/signika/builds/build/sources/Signika-Bold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+$ fontbakery-check.py upstream-ttx Signika-Regular.ttf.ttx
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/signika/builds/build/sources/Signika-Regular.ttf.ttx /home/travis/build/fontdirectory/signika/builds/build/sources/Signika-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+$ fontbakery-check.py upstream-ttx Signika-Semibold.ttf.ttx
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/signika/builds/build/sources/Signika-Semibold.ttf.ttx /home/travis/build/fontdirectory/signika/builds/build/sources/Signika-Semibold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+$ fontbakery-check.py upstream-ttx Signika-Bold.otf.ttx
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/signika/builds/build/sources/Signika-Bold.otf.ttx /home/travis/build/fontdirectory/signika/builds/build/sources/Signika-Bold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+### (4 of 6) Convert sources to TTF
+$ ttx -d /home/travis/build/fontdirectory/signika/builds/build /home/travis/build/fontdirectory/signika/builds/build/sources/Signika-Bold.ttx /home/travis/build/fontdirectory/signika/builds/build/sources/Signika-Light.ttx /home/travis/build/fontdirectory/signika/builds/build/sources/Signika-Regular.ttx /home/travis/build/fontdirectory/signika/builds/build/sources/Signika-Semibold.ttx
+$ fontbakery-build-font2ttf.py sources/Signika-Bold.otf Signika-Bold.ttf
+Warning: Mac and Windows entries in the 'name' table differ for the
+ Fullname string in the language English (US)
+ Mac String: Signika Bold
+Windows String: Signika-Bold
+nbspace's SEAC-like endchar operator is depreciated for Type2
+i's SEAC-like endchar operator is depreciated for Type2
+agrave's SEAC-like endchar operator is depreciated for Type2
+acircumflex's SEAC-like endchar operator is depreciated for Type2
+atilde's SEAC-like endchar operator is depreciated for Type2
+egrave's SEAC-like endchar operator is depreciated for Type2
+ecircumflex's SEAC-like endchar operator is depreciated for Type2
+nacute's SEAC-like endchar operator is depreciated for Type2
+ograve's SEAC-like endchar operator is depreciated for Type2
+ocircumflex's SEAC-like endchar operator is depreciated for Type2
+odieresis's SEAC-like endchar operator is depreciated for Type2
+rcaron's SEAC-like endchar operator is depreciated for Type2
+ugrave's SEAC-like endchar operator is depreciated for Type2
+ucircumflex's SEAC-like endchar operator is depreciated for Type2
+yacute's SEAC-like endchar operator is depreciated for Type2
+cacute's SEAC-like endchar operator is depreciated for Type2
+ecaron's SEAC-like endchar operator is depreciated for Type2
+racute's SEAC-like endchar operator is depreciated for Type2
+uring's SEAC-like endchar operator is depreciated for Type2
+zacute's SEAC-like endchar operator is depreciated for Type2
+zcaron's SEAC-like endchar operator is depreciated for Type2
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/signika/builds/build/Signika-Bold.ttf)
+Compiling "/home/travis/build/fontdirectory/signika/builds/build/sources/Signika-Bold.ttx" to "/home/travis/build/fontdirectory/signika/builds/build/Signika-Bold.otf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'name' table...
+Parsing 'cmap' table...
+Parsing 'post' table...
+Parsing 'CFF ' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'hmtx' table...
+Compiling "/home/travis/build/fontdirectory/signika/builds/build/sources/Signika-Light.ttx" to "/home/travis/build/fontdirectory/signika/builds/build/Signika-Light.otf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'name' table...
+Parsing 'cmap' table...
+Parsing 'post' table...
+Parsing 'CFF ' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'hmtx' table...
+Compiling "/home/travis/build/fontdirectory/signika/builds/build/sources/Signika-Regular.ttx" to "/home/travis/build/fontdirectory/signika/builds/build/Signika-Regular.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'LTSH' table...
+Parsing 'VDMX' table...
+Parsing 'hdmx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'kern' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Compiling "/home/travis/build/fontdirectory/signika/builds/build/sources/Signika-Semibold.ttx" to "/home/travis/build/fontdirectory/signika/builds/build/Signika-Semibold.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'LTSH' table...
+Parsing 'VDMX' table...
+Parsing 'hdmx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'kern' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+strippedname:/home/travis/build/fontdirectory/signika/builds/build/Signika-Bold.otf
+### Test Signika-Bold.ttf
+$ fontbakery-check.py result Signika-Bold.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/signika/builds/build/Signika-Bold.ttf
+$ mv /home/travis/build/fontdirectory/signika/builds/build/Signika-Bold.ttf.fix /home/travis/build/fontdirectory/signika/builds/build/Signika-Bold.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/signika/builds/build/Signika-Bold.ttf
+$ mv /home/travis/build/fontdirectory/signika/builds/build/Signika-Bold.ttf.fix /home/travis/build/fontdirectory/signika/builds/build/Signika-Bold.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/signika/builds/build/Signika-Bold.ttf
+$ mv /home/travis/build/fontdirectory/signika/builds/build/Signika-Bold.ttf.fix /home/travis/build/fontdirectory/signika/builds/build/Signika-Bold.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/signika/builds/build/Signika-Bold.ttf
+$ mv /home/travis/build/fontdirectory/signika/builds/build/Signika-Bold.ttf.fix /home/travis/build/fontdirectory/signika/builds/build/Signika-Bold.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+The glyph named nbspace is mapped to U+F010E.
+But its name indicates it should be mapped to U+00A0.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/signika/builds/build/Signika-Bold.ttf
+$ mv /home/travis/build/fontdirectory/signika/builds/build/Signika-Bold.ttf.fix /home/travis/build/fontdirectory/signika/builds/build/Signika-Bold.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/signika/builds/build/Signika-Bold.ttf
+$ mv /home/travis/build/fontdirectory/signika/builds/build/Signika-Bold.ttf.fix /home/travis/build/fontdirectory/signika/builds/build/Signika-Bold.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+### Optimize TTF Signika-Bold.ttf
+$ ls -l 'Signika-Bold.ttf'* # look at the size savings of that subset process
+Signika-Bold.ttf.opt: 61436 bytes
+Signika-Bold.ttf: 73484 bytes
+$ mv /home/travis/build/fontdirectory/signika/builds/build/Signika-Bold.ttf.opt /home/travis/build/fontdirectory/signika/builds/build/Signika-Bold.ttf
+### Autohint TTFs (ttfautohint) Signika-Bold.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/signika/builds/build/Signika-Bold.ttf '/home/travis/build/fontdirectory/signika/builds/build/Signika-Bold.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/signika/builds/build/Signika-Bold.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/signika/builds/build/Signika-Bold.ttf: 61436 bytes
+/home/travis/build/fontdirectory/signika/builds/build/Signika-Bold.autohint.ttf: 88056 bytes
+$ mv /home/travis/build/fontdirectory/signika/builds/build/Signika-Bold.autohint.ttf /home/travis/build/fontdirectory/signika/builds/build/Signika-Bold.ttf
+### Subset TTFs (pyftsubset) Signika-Bold.ttf
+$ pyftsubset Signika-Bold.latin
+$ pyftsubset Signika-Bold.menu
+No nbsp glyph
+spaceWidth is    220
+nbspWidth is     0
+Signika-Bold.ttf.fix made with spaceWidth and nbspWidth of 220
+strippedname:/home/travis/build/fontdirectory/signika/builds/build/Signika-Bold.ttf
+$ fontbakery-build-font2ttf.py sources/Signika-Light.otf Signika-Light.ttf
+Warning: Mac and Windows entries in the 'name' table differ for the
+ Fullname string in the language English (US)
+ Mac String: Signika Light
+Windows String: Signika-Light
+nbspace's SEAC-like endchar operator is depreciated for Type2
+i's SEAC-like endchar operator is depreciated for Type2
+agrave's SEAC-like endchar operator is depreciated for Type2
+acircumflex's SEAC-like endchar operator is depreciated for Type2
+atilde's SEAC-like endchar operator is depreciated for Type2
+egrave's SEAC-like endchar operator is depreciated for Type2
+ecircumflex's SEAC-like endchar operator is depreciated for Type2
+itilde's SEAC-like endchar operator is depreciated for Type2
+iacute's SEAC-like endchar operator is depreciated for Type2
+idieresis's SEAC-like endchar operator is depreciated for Type2
+nacute's SEAC-like endchar operator is depreciated for Type2
+ograve's SEAC-like endchar operator is depreciated for Type2
+ocircumflex's SEAC-like endchar operator is depreciated for Type2
+odieresis's SEAC-like endchar operator is depreciated for Type2
+rcaron's SEAC-like endchar operator is depreciated for Type2
+ugrave's SEAC-like endchar operator is depreciated for Type2
+ucircumflex's SEAC-like endchar operator is depreciated for Type2
+yacute's SEAC-like endchar operator is depreciated for Type2
+cacute's SEAC-like endchar operator is depreciated for Type2
+ecaron's SEAC-like endchar operator is depreciated for Type2
+racute's SEAC-like endchar operator is depreciated for Type2
+uring's SEAC-like endchar operator is depreciated for Type2
+zacute's SEAC-like endchar operator is depreciated for Type2
+zcaron's SEAC-like endchar operator is depreciated for Type2
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/signika/builds/build/Signika-Light.ttf)
+strippedname:/home/travis/build/fontdirectory/signika/builds/build/Signika-Light.otf
+### Test Signika-Light.ttf
+$ fontbakery-check.py result Signika-Light.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/signika/builds/build/Signika-Light.ttf
+$ mv /home/travis/build/fontdirectory/signika/builds/build/Signika-Light.ttf.fix /home/travis/build/fontdirectory/signika/builds/build/Signika-Light.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/signika/builds/build/Signika-Light.ttf
+$ mv /home/travis/build/fontdirectory/signika/builds/build/Signika-Light.ttf.fix /home/travis/build/fontdirectory/signika/builds/build/Signika-Light.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/signika/builds/build/Signika-Light.ttf
+$ mv /home/travis/build/fontdirectory/signika/builds/build/Signika-Light.ttf.fix /home/travis/build/fontdirectory/signika/builds/build/Signika-Light.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/signika/builds/build/Signika-Light.ttf
+$ mv /home/travis/build/fontdirectory/signika/builds/build/Signika-Light.ttf.fix /home/travis/build/fontdirectory/signika/builds/build/Signika-Light.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/signika/builds/build/Signika-Light.ttf
+$ mv /home/travis/build/fontdirectory/signika/builds/build/Signika-Light.ttf.fix /home/travis/build/fontdirectory/signika/builds/build/Signika-Light.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+The glyph named nbspace is mapped to U+F010E.
+But its name indicates it should be mapped to U+00A0.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/signika/builds/build/Signika-Light.ttf
+$ mv /home/travis/build/fontdirectory/signika/builds/build/Signika-Light.ttf.fix /home/travis/build/fontdirectory/signika/builds/build/Signika-Light.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/signika/builds/build/Signika-Light.ttf
+$ mv /home/travis/build/fontdirectory/signika/builds/build/Signika-Light.ttf.fix /home/travis/build/fontdirectory/signika/builds/build/Signika-Light.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+### Optimize TTF Signika-Light.ttf
+$ ls -l 'Signika-Light.ttf'* # look at the size savings of that subset process
+Signika-Light.ttf.opt: 60476 bytes
+Signika-Light.ttf: 72380 bytes
+$ mv /home/travis/build/fontdirectory/signika/builds/build/Signika-Light.ttf.opt /home/travis/build/fontdirectory/signika/builds/build/Signika-Light.ttf
+### Autohint TTFs (ttfautohint) Signika-Light.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/signika/builds/build/Signika-Light.ttf '/home/travis/build/fontdirectory/signika/builds/build/Signika-Light.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/signika/builds/build/Signika-Light.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/signika/builds/build/Signika-Light.ttf: 60476 bytes
+/home/travis/build/fontdirectory/signika/builds/build/Signika-Light.autohint.ttf: 84200 bytes
+$ mv /home/travis/build/fontdirectory/signika/builds/build/Signika-Light.autohint.ttf /home/travis/build/fontdirectory/signika/builds/build/Signika-Light.ttf
+### Subset TTFs (pyftsubset) Signika-Light.ttf
+$ pyftsubset Signika-Light.latin
+$ pyftsubset Signika-Light.menu
+No nbsp glyph
+spaceWidth is    220
+nbspWidth is     0
+Signika-Light.ttf.fix made with spaceWidth and nbspWidth of 220
+strippedname:/home/travis/build/fontdirectory/signika/builds/build/Signika-Light.ttf
+### Test Signika-Regular.ttf
+$ fontbakery-check.py result Signika-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/signika/builds/build/Signika-Regular.ttf
+$ mv /home/travis/build/fontdirectory/signika/builds/build/Signika-Regular.ttf.fix /home/travis/build/fontdirectory/signika/builds/build/Signika-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/signika/builds/build/Signika-Regular.ttf
+$ mv /home/travis/build/fontdirectory/signika/builds/build/Signika-Regular.ttf.fix /home/travis/build/fontdirectory/signika/builds/build/Signika-Regular.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/signika/builds/build/Signika-Regular.ttf
+$ mv /home/travis/build/fontdirectory/signika/builds/build/Signika-Regular.ttf.fix /home/travis/build/fontdirectory/signika/builds/build/Signika-Regular.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/signika/builds/build/Signika-Regular.ttf
+$ mv /home/travis/build/fontdirectory/signika/builds/build/Signika-Regular.ttf.fix /home/travis/build/fontdirectory/signika/builds/build/Signika-Regular.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'LTSH' linear threshold table
+  Ignoring 'VDMX' vertical device metrics table
+  Ignoring 'hdmx' horizontal device metrics table
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+The glyph named nonbreakingspace is mapped to U+F010D.
+But its name indicates it should be mapped to U+00A0.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/signika/builds/build/Signika-Regular.ttf
+$ mv /home/travis/build/fontdirectory/signika/builds/build/Signika-Regular.ttf.fix /home/travis/build/fontdirectory/signika/builds/build/Signika-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/signika/builds/build/Signika-Regular.ttf
+$ mv /home/travis/build/fontdirectory/signika/builds/build/Signika-Regular.ttf.fix /home/travis/build/fontdirectory/signika/builds/build/Signika-Regular.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+### Optimize TTF Signika-Regular.ttf
+Process Process-9:
+Traceback (most recent call last):
+  File "/opt/python/2.7.8/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/opt/python/2.7.8/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_cli/pipe/build.py", line 117, in run_processes
+    optimize.run(filename, pipedata)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_cli/pipe/optimize.py", line 60, in run
+    subsetter.subset(font)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/FontTools/fontTools/subset.py", line 2409, in subset
+    self._subset_glyphs(font)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/FontTools/fontTools/subset.py", line 2371, in _subset_glyphs
+    table = font[tag]
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/FontTools/fontTools/ttLib/__init__.py", line 394, in __getitem__
+    table.decompile(data, self)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/FontTools/fontTools/ttLib/tables/_h_d_m_x.py", line 25, in decompile
+    widths[glyphOrder[glyphID]] = byteord(data[glyphID+2])
+IndexError: string index out of range
+No nbsp glyph
+spaceWidth is    220
+nbspWidth is     0
+Signika-Regular.ttf.fix made with spaceWidth and nbspWidth of 220
+strippedname:/home/travis/build/fontdirectory/signika/builds/build/Signika-Regular.ttf
+### Test Signika-Semibold.ttf
+$ fontbakery-check.py result Signika-Semibold.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/signika/builds/build/Signika-Semibold.ttf
+$ mv /home/travis/build/fontdirectory/signika/builds/build/Signika-Semibold.ttf.fix /home/travis/build/fontdirectory/signika/builds/build/Signika-Semibold.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/signika/builds/build/Signika-Semibold.ttf
+$ mv /home/travis/build/fontdirectory/signika/builds/build/Signika-Semibold.ttf.fix /home/travis/build/fontdirectory/signika/builds/build/Signika-Semibold.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/signika/builds/build/Signika-Semibold.ttf
+$ mv /home/travis/build/fontdirectory/signika/builds/build/Signika-Semibold.ttf.fix /home/travis/build/fontdirectory/signika/builds/build/Signika-Semibold.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/signika/builds/build/Signika-Semibold.ttf
+$ mv /home/travis/build/fontdirectory/signika/builds/build/Signika-Semibold.ttf.fix /home/travis/build/fontdirectory/signika/builds/build/Signika-Semibold.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/signika/builds/build/Signika-Semibold.ttf
+$ mv /home/travis/build/fontdirectory/signika/builds/build/Signika-Semibold.ttf.fix /home/travis/build/fontdirectory/signika/builds/build/Signika-Semibold.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'LTSH' linear threshold table
+  Ignoring 'VDMX' vertical device metrics table
+  Ignoring 'hdmx' horizontal device metrics table
+Warning: Mac and Windows entries in the 'name' table differ for the
+ Compatible Full string in the language English (US)
+ Mac String: Signika Semibold
+Windows String: Signika-Semibold
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+The glyph named nonbreakingspace is mapped to U+F010E.
+But its name indicates it should be mapped to U+00A0.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/signika/builds/build/Signika-Semibold.ttf
+$ mv /home/travis/build/fontdirectory/signika/builds/build/Signika-Semibold.ttf.fix /home/travis/build/fontdirectory/signika/builds/build/Signika-Semibold.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/signika/builds/build/Signika-Semibold.ttf
+$ mv /home/travis/build/fontdirectory/signika/builds/build/Signika-Semibold.ttf.fix /home/travis/build/fontdirectory/signika/builds/build/Signika-Semibold.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+### Optimize TTF Signika-Semibold.ttf
+Process Process-10:
+Traceback (most recent call last):
+  File "/opt/python/2.7.8/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/opt/python/2.7.8/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_cli/pipe/build.py", line 117, in run_processes
+    optimize.run(filename, pipedata)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_cli/pipe/optimize.py", line 60, in run
+    subsetter.subset(font)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/FontTools/fontTools/subset.py", line 2409, in subset
+    self._subset_glyphs(font)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/FontTools/fontTools/subset.py", line 2371, in _subset_glyphs
+    table = font[tag]
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/FontTools/fontTools/ttLib/__init__.py", line 394, in __getitem__
+    table.decompile(data, self)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/FontTools/fontTools/ttLib/tables/_h_d_m_x.py", line 25, in decompile
+    widths[glyphOrder[glyphID]] = byteord(data[glyphID+2])
+IndexError: string index out of range
+No nbsp glyph
+spaceWidth is    220
+nbspWidth is     0
+Signika-Semibold.ttf.fix made with spaceWidth and nbspWidth of 220
+strippedname:/home/travis/build/fontdirectory/signika/builds/build/Signika-Semibold.ttf
+### (5 of 6) Generate METADATA.json (fontbakery-build-metadata.py)
+$ fontbakery-build-metadata.py /home/travis/build/fontdirectory/signika/builds/build
+{} exists
+Designer's name from font is: Anna Giedrys
+Original size: 141308\nGzip size: 77919
+Family Name: Signika
+PS Name: Signika-Semibold
+Full Name: Signika-Semibold
+Style: normal
+Weight: 600
+Filename: Signika-Semibold.ttf
+Copyright: Copyright (c) 2011 by Anna Giedrys (http://ancymonic.com), with Reserved Font Names "Signika".
+Family Name: Signika
+PS Name: Signika-Bold
+Full Name: Signika-Bold
+Style: normal
+Weight: 700
+Filename: Signika-Bold.ttf
+Copyright: Copyright (c) 2011 by Anna Giedrys (http://ancymonic.com), with Reserved Font Names "Signika".
+Family Name: Signika
+PS Name: Signika-Light
+Full Name: Signika-Light
+Style: normal
+Weight: 300
+Filename: Signika-Light.ttf
+Copyright: Copyright (c) 2011 by Anna Giedrys (http://ancymonic.com), with Reserved Font Names "Signika".
+Family Name: Signika
+PS Name: Signika-Regular
+Full Name: Signika
+Style: normal
+Weight: 400
+Filename: Signika-Regular.ttf
+Copyright: Copyright (c) 2011 by Anna Giedrys (http://ancymonic.com), with Reserved Font Names "Signika".
+Error: 
+ERROR: BUILD FAILED
